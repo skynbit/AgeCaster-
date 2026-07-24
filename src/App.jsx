@@ -499,4 +499,21 @@ export default function AgeCaster() {
 
   const btnStyle = (kind) => ({
     flex: 1,
-    p
+    padding: '12px',
+    borderRadius: '8px',
+    border: 'none',
+    cursor: 'pointer',
+    fontWeight: 'bold',
+    backgroundColor: kind === 'primary' ? '#4f46e5' : '#e5e7eb',
+    color: kind === 'primary' ? '#ffffff' : '#374151',
+  });
+
+  return (
+    <div>
+      {/* AgeCaster layout components */}
+    </div>
+  );
+}
+
+export default App;
+
